@@ -164,6 +164,13 @@ actions:
     - 'google.com'
 
 # Example MCP Servers Object Structure
+mcpServers:
+  jimy:
+    command: npx
+    args:
+      - -y
+      - "@paulhb7/mcp-sequential-ethical-thinking@0.3.2"
+    timeout: 30000
 # mcpServers:
 #   everything:
 #     # type: sse # type can optionally be omitted
