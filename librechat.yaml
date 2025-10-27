@@ -165,12 +165,12 @@ actions:
 
 # Example MCP Servers Object Structure
 mcpServers:
-  jimy:
+  htfjimy:
     command: npx
     args:
       - -y
-      - "@paulhb7/mcp-sequential-ethical-thinking@0.3.2"
-    timeout: 30000
+      - mcp-remote@latest
+      - https://htfjimy.fastmcp.app/mcp
 # mcpServers:
 #   everything:
 #     # type: sse # type can optionally be omitted
